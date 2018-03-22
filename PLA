@@ -1,4 +1,3 @@
-<span style="font-size:10px;">#encoding:utf-8  
 from numpy import *  
 import matplotlib.pyplot as plt  
 import operator  
@@ -82,10 +81,10 @@ def main():
     w=pla(trainData,label)  
     result=classifyall(testdata,w)  
     plotBestFit(w)  
-    print w  
-    print result  
+    print(w)  
+    print(result)  
 if __name__=='__main__':  
     start = time.clock()  
     main()  
     end = time.clock()  
-    print('finish all in %s' % str(end - start))</span>  
+    print('finish all in %s' % str(end - start))
